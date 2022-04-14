@@ -1,14 +1,73 @@
-body{
-  font-family: sans-serif;
-  font-size:110%;
-  background-color: #FCF7F8;
+.container {
+  display : flex;
 }
 
+body{
+  font-family: sans-serif;
+  background-color: #FCF7F8;
+}
+h2 {
+  padding: 2%;
+  border-width: 3px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-color: red;
+  border-radius: 0px;    
+}
 header {
+  border-radius: 30px;
   text-align: center;
+  background-color: #5e5d5c;
+  font-size: 110%;
+  word-spacing: 1px;
 }
 
 footer {
   background-color: #343330;
   text-align: center;
+}
+#sidebar {
+  background-color: #343331;
+  width: 20%;
+}
+.nav-menu {
+  list-style-type: none;
+  text-align: center;
+}
+#profilephoto {
+  width: 5%;
+  height: 5%;
+  border-radius: 75%;
+  border: greenyellow;
+  border-style:solid;
+}
+
+h1 {
+  color:aliceblue;
+  margin: 2%;
+  border: 5%;
+}
+
+#intro {
+  margin: 6%;
+  color:aliceblue;
+}
+
+#title {
+  top: 15%;
+}
+
+.dates {
+  font-size: 150%;
+}
+
+#logo {
+
+  border-style:outset;
+  width: 156px;
+  height: auto;
+  border-radius: 70%;
+}
+#GoogleCoursesList {
+  padding: 15px;
 }
