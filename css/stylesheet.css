@@ -1,6 +1,4 @@
-.container {
-  display : flex;
-}
+
 
 body{
   font-family: sans-serif;
@@ -19,7 +17,7 @@ header {
   text-align: center;
   background-color: #5e5d5c;
   font-size: 110%;
-  word-spacing: 1px;
+
 }
 
 footer {
@@ -28,15 +26,18 @@ footer {
 }
 #sidebar {
   background-color: #343331;
-  width: 20%;
+  padding: 2%;
+  border-radius: 15%;
+  
 }
 .nav-menu {
   list-style-type: none;
   text-align: center;
+  
 }
 #profilephoto {
-  width: 5%;
-  height: 5%;
+  width: 10%;
+  height: 10%;
   border-radius: 75%;
   border: greenyellow;
   border-style:solid;
@@ -49,7 +50,7 @@ h1 {
 }
 
 #intro {
-  margin: 6%;
+  margin: 2%;
   color:aliceblue;
 }
 
@@ -70,4 +71,9 @@ h1 {
 }
 #GoogleCoursesList {
   padding: 15px;
+}
+
+.main {
+  display : flex;
+
 }
